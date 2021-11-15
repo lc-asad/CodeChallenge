@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		187A4C8B2742E2EE00CE8B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4C8A2742E2EE00CE8B7A /* AppDelegate.swift */; };
 		187A4C8D2742E2EE00CE8B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4C8C2742E2EE00CE8B7A /* SceneDelegate.swift */; };
-		187A4C8F2742E2EE00CE8B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4C8E2742E2EE00CE8B7A /* ViewController.swift */; };
 		187A4C922742E2EE00CE8B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A4C902742E2EE00CE8B7A /* Main.storyboard */; };
 		187A4C942742E2EF00CE8B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A4C932742E2EF00CE8B7A /* Assets.xcassets */; };
 		187A4C972742E2EF00CE8B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A4C952742E2EF00CE8B7A /* LaunchScreen.storyboard */; };
 		187A4CA22742E2EF00CE8B7A /* CodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4CA12742E2EF00CE8B7A /* CodeChallengeTests.swift */; };
 		187A4CAD2742E2EF00CE8B7A /* CodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4CAC2742E2EF00CE8B7A /* CodeChallengeUITests.swift */; };
+		187A4CE32742F09800CE8B7A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4CE22742F09800CE8B7A /* RegistrationViewController.swift */; };
+		187A4CEB2742F0F500CE8B7A /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4CEA2742F0F500CE8B7A /* RegistrationViewModel.swift */; };
 		5A7619791779673818F14442 /* Pods_CodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD99032B1ACD24C710CF4059 /* Pods_CodeChallenge.framework */; };
 		6103CF4F5015D8153AD1DF41 /* Pods_CodeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D825B40D85959A9BEF23B5AD /* Pods_CodeChallengeTests.framework */; };
 		FBE841852F90E53DFC6FD314 /* Pods_CodeChallenge_CodeChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2715753329BD1CE7990EB9AA /* Pods_CodeChallenge_CodeChallengeUITests.framework */; };
@@ -41,7 +42,6 @@
 		187A4C872742E2EE00CE8B7A /* CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A4C8A2742E2EE00CE8B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187A4C8C2742E2EE00CE8B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		187A4C8E2742E2EE00CE8B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		187A4C912742E2EE00CE8B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187A4C932742E2EF00CE8B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187A4C962742E2EF00CE8B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		187A4CA82742E2EF00CE8B7A /* CodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A4CAC2742E2EF00CE8B7A /* CodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallengeUITests.swift; sourceTree = "<group>"; };
 		187A4CAE2742E2EF00CE8B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187A4CE22742F09800CE8B7A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		187A4CEA2742F0F500CE8B7A /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		2715753329BD1CE7990EB9AA /* Pods_CodeChallenge_CodeChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeChallenge_CodeChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55ED3F4973A774517BB31441 /* Pods-CodeChallenge-CodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeChallenge-CodeChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-CodeChallenge-CodeChallengeUITests/Pods-CodeChallenge-CodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		60AE0C429B60710EF5FCCE4D /* Pods-CodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeChallengeTests/Pods-CodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,7 +157,7 @@
 		187A4CBE2742E87F00CE8B7A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				187A4C8E2742E2EE00CE8B7A /* ViewController.swift */,
+				187A4CE12742F06500CE8B7A /* RegistrationViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -185,6 +187,15 @@
 			path = "Suppoting Files";
 			sourceTree = "<group>";
 		};
+		187A4CE12742F06500CE8B7A /* RegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				187A4CE22742F09800CE8B7A /* RegistrationViewController.swift */,
+				187A4CEA2742F0F500CE8B7A /* RegistrationViewModel.swift */,
+			);
+			path = RegistrationViewController;
+			sourceTree = "<group>";
+		};
 		6F5243055445227C758033DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +206,6 @@
 				60AE0C429B60710EF5FCCE4D /* Pods-CodeChallengeTests.debug.xcconfig */,
 				650325C17BF5560DFBE05ECA /* Pods-CodeChallengeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -447,7 +457,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187A4C8F2742E2EE00CE8B7A /* ViewController.swift in Sources */,
+				187A4CE32742F09800CE8B7A /* RegistrationViewController.swift in Sources */,
+				187A4CEB2742F0F500CE8B7A /* RegistrationViewModel.swift in Sources */,
 				187A4C8B2742E2EE00CE8B7A /* AppDelegate.swift in Sources */,
 				187A4C8D2742E2EE00CE8B7A /* SceneDelegate.swift in Sources */,
 			);
