@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181EB1072744165600937D34 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB1062744165600937D34 /* WelcomeViewController.swift */; };
+		181EB10D274427CA00937D34 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB10C274427CA00937D34 /* Utilities.swift */; };
 		187A4C8B2742E2EE00CE8B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4C8A2742E2EE00CE8B7A /* AppDelegate.swift */; };
 		187A4C8D2742E2EE00CE8B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A4C8C2742E2EE00CE8B7A /* SceneDelegate.swift */; };
 		187A4C922742E2EE00CE8B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A4C902742E2EE00CE8B7A /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181EB1062744165600937D34 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		181EB10C274427CA00937D34 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		187A4C872742E2EE00CE8B7A /* CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A4C8A2742E2EE00CE8B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187A4C8C2742E2EE00CE8B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181EB1052744163700937D34 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				181EB1062744165600937D34 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		181EB10B274427BF00937D34 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				181EB10C274427CA00937D34 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		187A4C7E2742E2EE00CE8B7A = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +138,7 @@
 		187A4C892742E2EE00CE8B7A /* CodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				181EB10B274427BF00937D34 /* Utilities */,
 				187A4CBD2742E87800CE8B7A /* Model */,
 				187A4CBE2742E87F00CE8B7A /* ViewControllers */,
 				187A4CBF2742E8BA00CE8B7A /* Views */,
@@ -157,6 +178,7 @@
 		187A4CBE2742E87F00CE8B7A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				181EB1052744163700937D34 /* Welcome */,
 				187A4CE12742F06500CE8B7A /* RegistrationViewController */,
 			);
 			path = ViewControllers;
@@ -457,7 +479,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181EB10D274427CA00937D34 /* Utilities.swift in Sources */,
 				187A4CE32742F09800CE8B7A /* RegistrationViewController.swift in Sources */,
+				181EB1072744165600937D34 /* WelcomeViewController.swift in Sources */,
 				187A4CEB2742F0F500CE8B7A /* RegistrationViewModel.swift in Sources */,
 				187A4C8B2742E2EE00CE8B7A /* AppDelegate.swift in Sources */,
 				187A4C8D2742E2EE00CE8B7A /* SceneDelegate.swift in Sources */,
